@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Code Challenge</title>
+    <link rel = 'stylesheet' href = "./style.css">
+</head>
+<body>
+
+        <h1>Week One Code Challenge</h1>
+
+    <!--First challenge section-->    
+        <div id = "firstChallenge">
+            <h2>Student Grade Generator</h2>
+            <p>Press the button below to display prompt window</p>
+            <button onclick="promptUser()">Click Me</button> 
+        </div>
+    
+    <!--Second challenge section-->
+        <div id = "secondChallenge">
+            <h2>Speed Detector</h2>
+            <p>Please enter the speed in the box below: </p>
+            <input type="number" placeholder="Enter Speed" id="speedBox">
+            <button onclick="calculateDelimiter()">Detect</button><br>
+            <p id="answer"></p>
+        </div>
+
+    <!--Third challnge section-->
+        <div id="thirdChallenge">
+            <h2>Net Salary Calculator</h2>
+            <p>Please enter your monthly gross salary below: </p>
+            <input type="number" placeholder="Monthly Gross Salary" id="salary">
+            <button onclick="salary()">Calculate</button>
+            <p id="Grosssalary"></p>
+            <p id="NHIF"></p>
+            <p id="PAYE"></p>
+            <p id="NSSF"></p>
+            <p id="Netpay"></p>
+        </div>
+    
+        <script src = "./index.js"></script>
+
+</body>
+</html>

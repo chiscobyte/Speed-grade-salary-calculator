@@ -1,0 +1,23 @@
+{
+    "name": "phase-1-week-1-code-challenge",
+    "version": "1.0.0",
+    "description": "phase 1 week 1 code challenge",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node index.js"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+ssh://git@github.com/Osorabrian/phase-1-week-1-code-challenge.git"
+    },
+    "keywords": [
+      "challenge"
+    ],
+    "author": "brian osora",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/Osorabrian/phase-1-week-1-code-challenge/issues"
+    },
+    "homepage": "https://github.com/Osorabrian/phase-1-week-1-code-challenge#readme"
+  }
